@@ -1,0 +1,29 @@
+.wrapper_L {
+	overflow: auto;
+}
+
+.overlay_x {
+	background: transparent;
+	overflow:hidden;
+	position:absolute;
+	width:200px;
+	height:200px;
+	left: 200px;
+	top: 50px;
+	-webkit-clip-path: circle(50% at 50% 50%);
+}
+
+#xray {
+	z-index: -1;
+	position: absolute;
+	left: -200px;
+	top: -50px;
+	transform: translateY(0px) translateX(0px);
+	cursor: none;
+}
+
+#main_XL {
+	z-index: -2;
+	position: absolute;
+	cursor: none;
+}
